@@ -7,7 +7,6 @@ const ctx: PluginContext = {
   state: { get: async () => null, set: async () => {} },
   config: {},
   logger: { info: () => {}, warn: () => {}, error: () => {}, debug: () => {} },
-  logger: { info: () => {}, warn: () => {}, error: () => {}, debug: () => {} },
 };
 for (const t of tools) {
   Deno.test(t.definition.name + " — returns success", async () => {

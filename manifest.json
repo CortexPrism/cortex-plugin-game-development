@@ -26,9 +26,16 @@
       "description": "Trigger build pipeline with platform targets",
       "params": []
     },
-    { "name": "gamedev_analytics", "description": "Analyze player behavior data", "params": [] }
+    {
+      "name": "gamedev_analytics",
+      "description": "Analyze player behavior data",
+      "params": []
+    }
   ],
   "dependencies": {},
   "peerDependencies": { "cortex": ">=1.0.0" },
-  "aiDisclosure": { "tools": ["Kilo (DeepSeek) — batch scaffold"], "humanReview": true }
+  "aiDisclosure": {
+    "tools": ["Kilo (DeepSeek) — batch scaffold"],
+    "humanReview": true
+  }
 }

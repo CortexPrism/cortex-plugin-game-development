@@ -154,7 +154,8 @@ When ready to publish:
 4. Push to GitHub: `git push origin main --tags`
 5. GitHub Actions automatically publishes to marketplace
 
-For detailed publishing instructions, see [Publishing Plugins](../docs/publishing.md).
+For detailed publishing instructions, see
+[Publishing Plugins](../docs/publishing.md).
 
 ## Troubleshooting
 
@@ -182,7 +183,8 @@ deno task validate
 
 **Error:** `Permission denied: network:fetch`
 
-**Solution:** The `network:fetch` capability must be in the manifest and approved by the user.
+**Solution:** The `network:fetch` capability must be in the manifest and
+approved by the user.
 
 ## Best Practices
 

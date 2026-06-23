@@ -1,7 +1,7 @@
 {
   "name": "cortex-plugin-game-development",
-  "version": "1.0.0",
-  "description": "Game Development Assistant — Unity/Godot/Unreal integration for asset management, physics debugging, build pipeline, and player analytics",
+  "version": "1.0.1",
+  "description": "Game Development Assistant \u2014 Unity/Godot/Unreal integration for asset management, physics debugging, build pipeline, and player analytics",
   "kind": "esm",
   "entryPoint": "mod.ts",
   "runtime": "deno",
@@ -9,7 +9,10 @@
   "license": "MIT",
   "repository": "https://github.com/CortexPrism/cortex-plugin-game-development",
   "homepage": "https://cortexprism.io/marketplace/plugins/game-development",
-  "capabilities": ["tools", "network:fetch"],
+  "capabilities": [
+    "tools",
+    "network:fetch"
+  ],
   "tools": [
     {
       "name": "gamedev_manage_assets",
@@ -33,9 +36,13 @@
     }
   ],
   "dependencies": {},
-  "peerDependencies": { "cortex": ">=1.0.0" },
+  "peerDependencies": {
+    "cortex": ">=0.51.0"
+  },
   "aiDisclosure": {
-    "tools": ["Kilo (DeepSeek) — batch scaffold"],
+    "tools": [
+      "Kilo (DeepSeek) \u2014 batch scaffold"
+    ],
     "humanReview": true
   }
 }
